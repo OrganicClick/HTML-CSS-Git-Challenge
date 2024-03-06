@@ -20,14 +20,9 @@ body {
     overflow: hidden;
 }
 
-.header ul {
-    list-style-type: none; /* Remove default list style */
-    padding: 10px 0 0; /* Add padding to the top */
-    float: right; /* Float the navbar to the right */
-}
-
+/* Logo styles */
 .header h1 {
-    float:left;
+    float: left;
     font-size: 48px;
 }
 
@@ -45,11 +40,12 @@ nav {
 }
 
 nav ul {
+    list-style-type: none;
     display: flex;
+    padding: 10px 0 0; /* Add padding to the top */
 }
 
 nav ul li {
-    display: inline-block;
     margin-left: 25px;
 }
 
