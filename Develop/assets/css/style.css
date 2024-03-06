@@ -17,10 +17,17 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    overflow: hidden;
+}
+
+.header ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 10px 0 0; /* Add padding to the top */
+    float: right; /* Float the navbar to the right */
 }
 
 .header h1 {
-    display: inline-block;
+    float:left;
     font-size: 48px;
 }
 
@@ -34,7 +41,7 @@ nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 nav ul {
